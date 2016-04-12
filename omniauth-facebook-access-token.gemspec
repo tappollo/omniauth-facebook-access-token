@@ -2,8 +2,8 @@
 require File.expand_path('../lib/omniauth-facebook-access-token/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.add_dependency 'omniauth', '~> 1.2'
-  gem.add_dependency 'oauth2', '~> 1.0.0'
+  gem.add_runtime_dependency 'omniauth-oauth2', '~> 1.2'
+  
 
   gem.authors       = ["Dor Shahaf"]
   gem.email         = ["dor@shahaf.com"]
